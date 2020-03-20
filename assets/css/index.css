@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+/* Defaults */
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Caption for Carousel */
+#caption-background {
+    background-color: rgba(0, 0, 0, 0.774);
+    padding: 30px;
+}
+
+/* Carousel images for all sizes */
+.carousel-item img {
+    width: auto;
+    height: 95vh;
+    max-height: 100vh;
+}
+
+@media screen and (min-width: 780px) and (max-width: 1080px) {
+    .carousel-item img {
+        height: 70vh;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .carousel-item img {
+        height: 50vh;
+    }
+}
+
+/* Preloader */
+div#preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99999;
+    height: 100%;
+    width: 100%;
+    overflow: visible;
+    background: #676D89 url('../img/preloader.gif') no-repeat center center;
+    margin: 0;
+}
+
+/* Section 2 Background */
+#section-1,
+#section-3,
+.footer {
+    background-color: #f5efef;
+}
+
+/* Box Shadow */
+.add-boxshadow {
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.514);
+}
+
+/* Small Headings and Paras */
+@media screen and (max-width: 780px) {
+    .small-headings {
+        font-size: 1.4rem;
+    }
+
+    .small-para {
+        font-size: 0.7rem;
+    }
+}
+
+/* Navbar Custom */
+.navbar-custom {
+    background-color: #f5efef;
+}
+
+.navbar-custom a {
+    color: black;
+}
+
+.navbar-custom a:hover{
+    color: rgba(0, 0, 0, 0.747);
+}
+
+.navbar-custom a .active{
+    color: white;
+}
