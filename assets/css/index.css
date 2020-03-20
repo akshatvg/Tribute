@@ -76,10 +76,23 @@ div#preloader {
     color: black;
 }
 
-.navbar-custom a:hover{
+.navbar-custom a:hover {
     color: rgba(0, 0, 0, 0.747);
 }
 
-.navbar-custom a .active{
+.navbar-custom a .active {
     color: white;
+}
+
+/* Navbar Toggler */
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(2, 0, 0)' stroke-width='1' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    border: 1px solid rgb(2, 0, 0);
+    border-radius: 3px;
+    padding: 19px;
+}
+
+/* Navbar Outline */
+.navbar .navbar-toggler {
+    outline: none;
 }
