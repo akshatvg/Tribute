@@ -15,10 +15,6 @@ Tribute website for internship task for Fame Technologies.
 #### Link for [demo](https://tribute.akshatvg.com) 
 [![Generic badge](https://img.shields.io/badge/view-demo-orange)](https://tribute.akshatvg.com)
 
-## Useful Links
-
-- [Actual Website](https://timemator.com)
-
 ## Requirements
 
 [![GitHub top language](https://img.shields.io/github/languages/top/akshatvg/Tribute?logo=html&style=social)](https://github.com/akshatvg/)
